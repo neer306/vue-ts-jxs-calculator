@@ -1,0 +1,20 @@
+.display {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-end;
+    color: #FFF;
+    white-space: nowrap;
+}
+
+.currentBuffer {
+    font-size: 24px;
+    height: 34px;
+}
+
+.result {
+    margin-top: 6px;
+    font-size: 30px;
+    height: 42px;
+}
+

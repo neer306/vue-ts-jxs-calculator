@@ -1,0 +1,30 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 400px;
+    border-radius: 6px;
+    border: 1px solid #6E6970;
+    background-color: #6E6970;
+}
+
+.display {
+    flex-shrink: 0;
+}
+
+.padWrapper {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 1%;
+    margin-bottom: 6px;
+}
+
+.digitsPad {
+    width: 75%;
+}
+
+.operationsPad {
+    width: 25%;
+}

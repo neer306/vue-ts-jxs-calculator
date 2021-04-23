@@ -1,0 +1,11 @@
+.digitsPad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    padding-left: 2px;
+}
+
+.buttonWide {
+    width: 100%;
+    grid-area: 4 / 1 / 4 / 4;
+}
